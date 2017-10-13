@@ -1,0 +1,21 @@
+{
+    "name": "web-atrio/invoice-data",
+    "description": "Extract data from invoice file.",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Ferrero",
+            "email": "steve.ferrero@web-atrio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "web-atrio/tesseract-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebAtrio\\InvoiceData\\": ""
+        }
+    }
+}
